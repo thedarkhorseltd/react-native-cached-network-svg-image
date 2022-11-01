@@ -1,0 +1,43 @@
+{
+  "name": "react-native-cached-network-svg-image",
+  "version": "1.0.1",
+  "description": "Render an SVG Images from url (using react-native-svg-uri), plus caching",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --compilers js:babel-core/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thedarkhorseltd/react-native-cached-network-svg-image.git"
+  },
+  "keywords": [
+    "react-native",
+    "svg",
+    "url",
+    "uri",
+    "cache",
+    "http"
+  ],
+  "author": "Suresh Konakanchi",
+  "license": "ISC",
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.17.10",
+    "xmldom": "^0.6.0"
+  },
+  "peerDependencies": {
+    "react-native-svg": "12.4.3"
+  },
+  "bugs": {
+    "url": "https://github.com/thedarkhorseltd/react-native-cached-network-svg-image/issues"
+  },
+  "homepage": "https://github.com/thedarkhorseltd/react-native-cached-network-svg-image#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-react-native": "^4.0.1",
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
